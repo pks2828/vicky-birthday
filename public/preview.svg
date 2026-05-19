@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#fce8ef"/>
+      <stop offset="50%"  stop-color="#f8e4fb"/>
+      <stop offset="100%" stop-color="#e8eeff"/>
+    </linearGradient>
+    <linearGradient id="stripe" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#E87AAA" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#E87AAA" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#E87AAA" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <!-- Fondo -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Manchas de color suave -->
+  <ellipse cx="160" cy="120"  rx="200" ry="180" fill="#FFB6D6" opacity="0.18" filter="url(#soft)"/>
+  <ellipse cx="1060" cy="500" rx="220" ry="190" fill="#C3AED6" opacity="0.18" filter="url(#soft)"/>
+  <ellipse cx="600" cy="315"  rx="260" ry="180" fill="#E87AAA" opacity="0.07" filter="url(#soft)"/>
+
+  <!-- Línea de acento top -->
+  <rect x="0" y="0" width="1200" height="6" fill="url(#stripe)"/>
+  <!-- Línea de acento bottom -->
+  <rect x="0" y="624" width="1200" height="6" fill="url(#stripe)"/>
+
+  <!-- Estrellas decorativas -->
+  <!-- Estrella grande izquierda -->
+  <path d="M110 300 L121 335 L158 335 L128 357 L139 392 L110 370 L81 392 L92 357 L62 335 L99 335 Z"
+        fill="#E87AAA" opacity="0.55"/>
+  <!-- Estrella pequeña -->
+  <path d="M180 160 L186 178 L205 178 L190 189 L196 207 L180 197 L164 207 L170 189 L155 178 L174 178 Z"
+        fill="#C3AED6" opacity="0.6"/>
+  <!-- Estrella grande derecha -->
+  <path d="M1080 200 L1091 235 L1128 235 L1098 257 L1109 292 L1080 270 L1051 292 L1062 257 L1032 235 L1069 235 Z"
+        fill="#C3AED6" opacity="0.5"/>
+  <!-- Estrella pequeña derecha -->
+  <path d="M1020 420 L1026 438 L1045 438 L1030 449 L1036 467 L1020 457 L1004 467 L1010 449 L995 438 L1014 438 Z"
+        fill="#E87AAA" opacity="0.55"/>
+
+  <!-- Círculos glitter -->
+  <circle cx="240" cy="480" r="22" fill="#E87AAA" opacity="0.2"/>
+  <circle cx="960" cy="140" r="16" fill="#C3AED6" opacity="0.25"/>
+  <circle cx="80"  cy="520" r="12" fill="#E87AAA" opacity="0.18"/>
+
+  <!-- Línea separadora central -->
+  <rect x="480" y="80" width="1.5" height="470" fill="#E87AAA" opacity="0.2"/>
+
+  <!-- LADO IZQUIERDO: Texto principal -->
+  <text x="240" y="210"
+        font-family="Georgia, serif"
+        font-size="28"
+        fill="#C87A9C"
+        text-anchor="middle"
+        letter-spacing="6">
+    ✨ ESTÁS INVITADA ✨
+  </text>
+
+  <text x="240" y="290"
+        font-family="Georgia, serif"
+        font-weight="bold"
+        font-size="72"
+        fill="#6B4055"
+        text-anchor="middle">
+    Happy
+  </text>
+  <text x="240" y="370"
+        font-family="Georgia, serif"
+        font-weight="bold"
+        font-size="72"
+        fill="#E87AAA"
+        text-anchor="middle">
+    Birthday
+  </text>
+  <text x="240" y="440"
+        font-family="Georgia, serif"
+        font-style="italic"
+        font-size="52"
+        fill="#6B4055"
+        text-anchor="middle">
+    Vicky! 🎂
+  </text>
+
+  <!-- LADO DERECHO: Detalles -->
+  <text x="840" y="180"
+        font-family="Georgia, serif"
+        font-size="22"
+        fill="#C87A9C"
+        text-anchor="middle"
+        letter-spacing="4">
+    BIRTHDAY PARTY
+  </text>
+
+  <!-- Número 23 -->
+  <text x="840" y="310"
+        font-family="Georgia, serif"
+        font-weight="bold"
+        font-size="130"
+        fill="#E87AAA"
+        opacity="0.15"
+        text-anchor="middle">
+    23
+  </text>
+  <text x="840" y="300"
+        font-family="Georgia, serif"
+        font-weight="bold"
+        font-size="110"
+        fill="#E87AAA"
+        text-anchor="middle">
+    23
+  </text>
+  <text x="840" y="330"
+        font-family="Georgia, serif"
+        font-size="18"
+        fill="#6B4055"
+        text-anchor="middle"
+        letter-spacing="3">
+    años
+  </text>
+
+  <!-- Línea decorativa -->
+  <rect x="660" y="370" width="360" height="1.5" fill="#E87AAA" opacity="0.35"/>
+
+  <!-- Fecha -->
+  <text x="840" y="420"
+        font-family="Georgia, serif"
+        font-size="26"
+        fill="#6B4055"
+        text-anchor="middle">
+    📅  Sábado, 29 de Agosto 2026
+  </text>
+  <text x="840" y="460"
+        font-family="Georgia, serif"
+        font-size="22"
+        fill="#9A6070"
+        text-anchor="middle">
+    2:00 pm — 10:00 pm
+  </text>
+
+  <!-- Lugar -->
+  <text x="840" y="510"
+        font-family="Georgia, serif"
+        font-size="22"
+        fill="#6B4055"
+        text-anchor="middle">
+    📍  Alagua 701, Jardines de la Silla
+  </text>
+
+  <!-- URL -->
+  <text x="840" y="558"
+        font-family="Georgia, serif"
+        font-size="16"
+        fill="#C87A9C"
+        text-anchor="middle"
+        letter-spacing="1">
+    pks2828.github.io/vicky-birthday
+  </text>
+</svg>

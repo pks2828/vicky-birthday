@@ -4,7 +4,15 @@
       "Bash(npm run:*)",
       "Read(//c/Users/Cocodrilo/Downloads/WhatsApp Unknown 2026-05-19 at 1.29.19 AM/**)",
       "Bash(git --version)",
-      "Bash(git config:*)"
+      "Bash(git config:*)",
+      "Bash(ls /c/Users/Cocodrilo/Desktop/vicky-birthday/*.css)",
+      "Bash(cp LetrasCumpleanosSinFondo.png /c/Users/Cocodrilo/Desktop/vicky-birthday/public/letras_hb.png)",
+      "Bash(cp BolaDiscoBlancaSinFondos.png /c/Users/Cocodrilo/Desktop/vicky-birthday/public/disco_blanca_sf.png)",
+      "Bash(cp BolaDiscoRosaSinFondo.png /c/Users/Cocodrilo/Desktop/vicky-birthday/public/disco_rosa_sf.png)",
+      "Bash(cp EstrellaGliterRosaSinFondo.png /c/Users/Cocodrilo/Desktop/vicky-birthday/public/estrella_rosa.png)",
+      "Bash(cp EstrellaGliterGrisSinFondo.png /c/Users/Cocodrilo/Desktop/vicky-birthday/public/estrella_gris.png)",
+      "Bash(git add:*)",
+      "Bash(git commit -m ':*)"
     ]
   }
 }
