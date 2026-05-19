@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Read(//c/Users/Cocodrilo/Downloads/WhatsApp Unknown 2026-05-19 at 1.29.19 AM/**)",
+      "Bash(git --version)",
+      "Bash(git config:*)"
+    ]
+  }
+}
