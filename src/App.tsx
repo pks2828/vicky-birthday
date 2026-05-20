@@ -256,9 +256,7 @@ export default function BirthdayInvitation() {
             bottom: 0, left: 0, right: 0,
             height: "36%",
             zIndex: 20,
-            background: "linear-gradient(to bottom, rgba(244,241,234,0) 0%, rgba(244,241,234,.85) 30%, rgba(244,241,234,.97) 100%)",
-            backdropFilter: "blur(6px)",
-            WebkitBackdropFilter: "blur(6px)",
+            background: "linear-gradient(to bottom, rgba(244,241,234,0) 0%, rgba(244,241,234,.88) 28%, rgba(244,241,234,.98) 100%)",
           }} />
 
           {/* divider */}
