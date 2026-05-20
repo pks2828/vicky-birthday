@@ -61,6 +61,33 @@ export default function BirthdayInvitation() {
           box-shadow: 0 7px 22px rgba(180,90,120,.35);
         }
         .maps-btn:active { transform: translateY(0); }
+
+        .rsvp-btn {
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 7px;
+          background: rgba(255,255,255,0.82);
+          color: #B8607C;
+          border: 2px solid #D4849E;
+          border-radius: 999px;
+          padding: 10px 22px;
+          font-family: 'Jost', sans-serif;
+          font-weight: 500;
+          font-size: clamp(.78rem, 3.2vw, .88rem);
+          letter-spacing: .08em;
+          text-transform: uppercase;
+          box-shadow: 0 4px 16px rgba(180,90,120,.12);
+          transition: transform .15s, box-shadow .15s, background .15s;
+          white-space: nowrap;
+        }
+        .rsvp-btn:hover {
+          transform: translateY(-2px);
+          box-shadow: 0 7px 22px rgba(180,90,120,.22);
+          background: rgba(255,255,255,0.97);
+        }
+        .rsvp-btn:active { transform: translateY(0); }
       `}</style>
 
       {/* ── OUTER PAGE ─────────────────────────────────────────────────── */}
@@ -227,7 +254,7 @@ export default function BirthdayInvitation() {
           <div style={{
             position: "absolute",
             bottom: 0, left: 0, right: 0,
-            height: "26%",
+            height: "36%",
             zIndex: 20,
             background: "linear-gradient(to bottom, rgba(244,241,234,0) 0%, rgba(244,241,234,.85) 30%, rgba(244,241,234,.97) 100%)",
             backdropFilter: "blur(6px)",
@@ -237,7 +264,7 @@ export default function BirthdayInvitation() {
           {/* divider */}
           <div style={{
             position: "absolute",
-            bottom: "23%", left: "50%",
+            bottom: "32%", left: "50%",
             transform: "translateX(-50%)",
             zIndex: 21,
             width: "65%", height: "1.5px",
@@ -290,6 +317,17 @@ export default function BirthdayInvitation() {
                 <circle cx="12" cy="10" r="3"/>
               </svg>
               Ver en Google Maps
+            </a>
+
+            {/* botón RSVP */}
+            <a href="https://forms.gle/Ma7y1nom9jTNxU9A9" target="_blank" rel="noopener noreferrer" className="rsvp-btn">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" strokeWidth="2.5"
+                strokeLinecap="round" strokeLinejoin="round">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                <circle cx="12" cy="7" r="4"/>
+              </svg>
+              Confirmar asistencia
             </a>
           </div>
 
