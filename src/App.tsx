@@ -272,7 +272,7 @@ export default function BirthdayInvitation() {
           {/* contenido info */}
           <div style={{
             position: "absolute",
-            bottom: "8%", left: "50%",
+            bottom: "5%", left: "50%",
             transform: "translateX(-50%)",
             zIndex: 22,
             width: "88%",
